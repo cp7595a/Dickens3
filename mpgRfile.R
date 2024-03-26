@@ -7,5 +7,5 @@ summary(mpg$displ)
 
 ggplot(mpg, aes(x = "", y = displ)) +
   geom_boxplot(fill = 'blue') +
-  coord_flip()+
+  coord_flip() +
   ylab("Displacement")
